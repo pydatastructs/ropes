@@ -1,0 +1,18 @@
+What's done:
+
+* Appending
+* Getting the length
+* Accessing an item
+* Repetition
+* Basic rebalancing(small nodes are not amalgamated)
+
+TODO:
+* Better rebalancing
+* Slices
+* Search/replace
+* Hashing
+* Comparisons
+
+THINGS TO LOOK INTO:
+* Should literals be allocated on demand or is it ok to keep all literals as LITERAL_LENGTH?
+* Keeping the depth less than 32 (as in the PyPy implementation)
